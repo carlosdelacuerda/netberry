@@ -1,0 +1,18 @@
+:root {
+    /* colores */
+    --corpColor: #F39200;
+    --dark: rgb(99, 99, 99);
+    --grey: #eee; 
+
+    /* tamaños */
+    --size: 8px; 
+
+    /* fuentes */
+    --title: 'Pacifico', cursive;
+    --text: 'Lato', sans-serif;
+    --fbase: 4px;
+  };
+
+  
+
+ 

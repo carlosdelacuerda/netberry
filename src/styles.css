@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url("./assets/css/reset.css");
+@import url("./assets/css/styleGuide.css");
+:root {}
+
+/* generic */
+body {
+    font-family: var(--text);
+    color: var(--dark);
+}
+.container {
+    max-width: 1280px;
+    padding: 0 calc(var(--size)*2);
+}
+h1 , h2 {
+    font-family: var(--title);
+    color: var(--corpColor);
+}
+
+/* common components */
+.title {
+    width: 100%;
+    text-align: center;
+}
+.title h2 {
+    font-size: calc(var(--fbase)*6);
+    margin: var(--size);
+}
+.title hr {
+    width: calc(var(--size)*8);
+    margin-top:  calc(var(--size)*2);
+}
+

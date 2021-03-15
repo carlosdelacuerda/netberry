@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    border-bottom: 1px solid var(--grey);
+}
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--size);
+    justify-content: center;
+}
+header figure {
+    height: calc(var(--size)*5);
+    width: auto;
+    display: inline-block;
+}
+header figure img {
+    height: 100%;
+}
+.user {
+    display: inline-block;
+    width: auto;
+    font-size: calc(var(--fbase)*3);
+    margin: auto 0 auto calc(var(--size)*2);
+}
+.user h1{
+    font-size: calc(var(--fbase)*5);
+    margin-top: var(--fbase);
+}
+.hamburguer-menu {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: calc(var(--size)*3);
+    width: calc(var(--size)*4);
+    display: inline-block;
+
+}
+.hamburguer-menu span {
+    height: calc(var(--size)/2);
+    width: 100%;
+    background-color: var(--corpColor);
+    border-radius: calc(var(--size)/4);
+    display: block;
+    margin-bottom: calc(var(--size)/2);
+}
+
