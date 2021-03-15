@@ -7,22 +7,31 @@
 }
 .landscapes {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .arrow {
     width: calc(var(--size)*4);
     margin: auto 0;
     display: inline-block;
+    cursor: pointer;
 }
 .left-arrow {
     transform: rotate(180deg)
 }
+.right-arrow {
+    margin-left: auto;
+}
 .content-carousel {
-    width: calc(100% -  calc(var(--size)*10));
-    margin: auto var(--size);
+    margin: auto;
+    width: calc(100% - var(--size)*8);
+    margin:  0 auto;
+    margin-right: auto;
+    margin-left: auto;
     overflow: hidden;
-    height: calc(var(--size)*20);
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     height: calc(var(--size)*12);
 }
 .landscapes figure {
@@ -32,4 +41,12 @@
 }
 .landscapes figure img {
     width: 100%;
+}
+
+@media (min-width: 960px)  {
+    .landscapes figure {
+        width: 33%;
+        display: inline-block;
+        margin: auto;
+    }
 }
