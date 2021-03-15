@@ -1,0 +1,35 @@
+.carousel {
+    width: 100%;
+    background-color: var(--grey);
+    padding: calc(var(--size)*2) 0 calc(var(--size)*4) 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.landscapes {
+    display: flex;
+    justify-content: center;
+}
+.arrow {
+    width: calc(var(--size)*4);
+    margin: auto 0;
+    display: inline-block;
+}
+.left-arrow {
+    transform: rotate(180deg)
+}
+.content-carousel {
+    width: calc(100% -  calc(var(--size)*10));
+    margin: auto var(--size);
+    overflow: hidden;
+    height: calc(var(--size)*20);
+    display: inline-block;
+    height: calc(var(--size)*12);
+}
+.landscapes figure {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.landscapes figure img {
+    width: 100%;
+}

@@ -2,7 +2,7 @@
     /* colores */
     --corpColor: #F39200;
     --dark: rgb(99, 99, 99);
-    --grey: #eee; 
+    --grey: rgb(228, 228, 228); 
 
     /* tamaños */
     --size: 8px; 
@@ -11,6 +11,9 @@
     --title: 'Pacifico', cursive;
     --text: 'Lato', sans-serif;
     --fbase: 4px;
+
+    /* otros */
+    --border: 1px solid var(--grey);
   };
 
   

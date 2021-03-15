@@ -1,0 +1,32 @@
+.products {
+    padding: var(--size);
+    display: flex;
+    flex-wrap: wrap;
+}
+.products li {
+    width: 100%;
+    border: var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    padding: calc(var(--size)*2);
+    margin: auto;
+    margin-bottom: calc(var(--size)*4);
+}
+.products li figure {
+    width: 100%;
+    overflow: hidden;
+}
+.products li figure img{
+    width: 100%;
+}
+.tags span {
+    color: var(--corpColor);
+    font-weight: 700;
+}
+.products h3 {
+    font-size: calc(var(--fbase)*6);
+    display: block;
+    font-weight: 900;
+    width: 100%;
+    margin: var(--size) 0;
+}

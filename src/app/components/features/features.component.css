@@ -1,0 +1,25 @@
+.features {
+    padding-top: calc(var(--size)*2);
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+}
+.features h3 {
+    font-size: calc(var(--fbase)*6);
+    padding: calc(var(--size)*2) 0;
+}
+.features figure {
+    width: 100%;
+    height: calc(var(--size)*50);
+    overflow: hidden;
+}
+.features img {
+    width: 100%;
+}
+.features li {
+    padding-left: calc(var(--size)*7);
+    background-image: url('../../../assets/images/check.svg');
+    background-repeat: no-repeat;
+    background-size: calc(var(--size)*5);
+    margin-bottom: calc(var(--size)*2);
+}

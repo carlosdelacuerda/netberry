@@ -16,6 +16,10 @@ h1 , h2 {
     font-family: var(--title);
     color: var(--corpColor);
 }
+a {
+    text-decoration: none;
+    color: var(--corpColor);
+}
 
 /* common components */
 .title {
