@@ -52,6 +52,8 @@
     width: 100%;
 }
 
+
+/* desktop */
 @media (min-width: 960px)  {
     .landscapes figure {
         width: 33%;

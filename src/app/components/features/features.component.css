@@ -49,6 +49,11 @@
     background-repeat: no-repeat;
     background-size: 60%;
 }
+
+
+
+
+
 @media (min-width: 960px) {
     .features-content {
         position: relative;

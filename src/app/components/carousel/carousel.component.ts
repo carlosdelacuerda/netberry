@@ -12,6 +12,7 @@ export class CarouselComponent implements OnInit {
 carousel;
 leftArrow;
 rightArrow;
+figure;
 left: number= 0 ;
 right: number= 0;
 
@@ -20,6 +21,7 @@ right: number= 0;
    }
 
   ngOnInit(): void {
+   this.figure = document.querySelectorAll('.figure')
    this.carousel = document.querySelector('.moving figure:first-child');
    this.leftArrow = document.querySelector('.left-arrow');
    this.rightArrow = document.querySelector('.right-arrow');
@@ -47,7 +49,11 @@ right: number= 0;
     } else if (this.left >= 0) {
       this.leftArrow.style.opacity = 0.2;
     }
-    
   }
+
+
+
+  
+
 
 }
