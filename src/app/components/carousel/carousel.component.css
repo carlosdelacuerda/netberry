@@ -34,10 +34,19 @@
     align-items: center;
     height: calc(var(--size)*12);
 }
+.moving {
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    height: calc(var(--size)*12);
+    width: auto;
+}
 .landscapes figure {
     width: 100%;
     overflow: hidden;
     height: 100%;
+    display: inline;
 }
 .landscapes figure img {
     width: 100%;

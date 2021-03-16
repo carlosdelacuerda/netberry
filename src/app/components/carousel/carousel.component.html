@@ -6,25 +6,27 @@
             <hr>
         </div>
         <div class="landscapes">
-            <img src="../../../assets/images/arrow.svg" alt="arrow" class="arrow left-arrow">
+            <img src="../../../assets/images/arrow.svg" alt="arrow" class="arrow left-arrow" (click)="clickLeft()">
             <div class="content-carousel">
-                <figure>
-                    <img src="../../../assets/images/landscape1.jpg" alt="landscape">
-                </figure>
-                <figure>
-                    <img src="../../../assets/images/landscape2.jpg" alt="landscape">
-                </figure>
-                <figure>
-                    <img src="../../../assets/images/landscape3.jpg" alt="landscape">
-                </figure>
-                <figure>
-                    <img src="../../../assets/images/landscape4.jpg" alt="landscape">
-                </figure>
-                <figure>
-                    <img src="../../../assets/images/landscape5.jpg" alt="landscape">
-                </figure>
+                <div class="moving">
+                    <figure>
+                        <img src="../../../assets/images/landscape1.jpg" alt="landscape">
+                    </figure>
+                    <figure>
+                        <img src="../../../assets/images/landscape2.jpg" alt="landscape">
+                    </figure>
+                    <figure>
+                        <img src="../../../assets/images/landscape3.jpg" alt="landscape">
+                    </figure>
+                    <figure>
+                        <img src="../../../assets/images/landscape4.jpg" alt="landscape">
+                    </figure>
+                    <figure>
+                        <img src="../../../assets/images/landscape5.jpg" alt="landscape">
+                    </figure>
+                </div>
             </div>
-            <img src="../../../assets/images/arrow.svg" alt="arrow" class="arrow right-arrow">
+            <img src="../../../assets/images/arrow.svg" alt="arrow" class="arrow right-arrow" (click)="clickRight()">
         </div>
     </div>
 </div>
